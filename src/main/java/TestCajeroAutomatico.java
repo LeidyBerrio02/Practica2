@@ -4,7 +4,10 @@ import java.util.*;
 public class TestCajeroAutomatico {
 
     public static void main(String[] args) {
+        //creacion de ArrayList tipo Cliente
         List<Cliente> cliente = new ArrayList();
+        
+        //funcion Scanner para leer los datos ingresados por consola 
         Scanner leer = new Scanner(System.in);
         int opcion;
         do {
